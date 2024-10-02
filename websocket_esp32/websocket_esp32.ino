@@ -7,7 +7,6 @@
 
 #define LED1 13
 #define LED2 12
-
 const char webpage[] PROGMEM = R"=====(
 
 <!DOCTYPE html>
