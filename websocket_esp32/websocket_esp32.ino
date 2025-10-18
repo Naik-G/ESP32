@@ -3,9 +3,9 @@
 #include <WebSocketsServer.h>
 #include <ArduinoJson.h>
 #include <ESPAsyncWebServer.h>
-
-#define LED1 12
-#define LED2 13
+#led pins 
+#define LED1 13
+#define LED2 12
 const char webpage[] PROGMEM = R"=====(
 
 <!DOCTYPE html>
